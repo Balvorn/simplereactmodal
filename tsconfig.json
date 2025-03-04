@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // JavaScript version to compile to
+        "module": "ESNext", // Use ES modules
+        "jsx": "react-jsx", // React JSX syntax
+        "declaration": true, // Generate .d.ts files for type definitions
+        "declarationDir": "dist", // Output directory for type definitions
+        "outDir": "dist", // Output directory for compiled files
+        "strict": true, // Enable strict type checking
+        "esModuleInterop": true, // Allow default imports from CommonJS modules
+        "skipLibCheck": true, // Skip checking types of imported libraries
+        "moduleResolution": "node", // Resolve modules like Node.js
+        "allowSyntheticDefaultImports": true // Allow default imports for CommonJS modules
+    },
+    "include": [
+        "src"
+    ], // Include files to compile
+    "exclude": [
+        "node_modules",
+        "dist"
+    ] // Exclude unnecessary files
+}
