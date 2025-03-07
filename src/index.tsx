@@ -1,5 +1,6 @@
 
 import { useEffect, useRef } from 'react';
+
 let modalRef: HTMLDialogElement | null = null;
 
 interface ModalProps {
